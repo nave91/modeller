@@ -77,7 +77,7 @@ class Xomo:
             return model
         self.collection = {}
         self.model = theModel(model)
-        self.c = Cocomo(data + "/" + self.model)
+        self.c = Cocomo("xomo/"+data+"/"+self.model)
         self.out = out + "/" + self.model + ".csv"
         self.data = data
         self.names = ["aa", "sced", "cplx", "site", "resl", "acap",

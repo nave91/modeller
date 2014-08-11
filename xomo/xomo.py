@@ -1,13 +1,6 @@
 import sys
 sys.dont_write_bytecode=True
 
-# demos in xomod.py
-# classes together
-# lib stuff at end
-# nice stuff!
-# kill all zombies
-
-# decorators (must be first)
 def demo(f=None,demos=[]): 
   if f: demos.append(f); return f
   for d in demos: 
