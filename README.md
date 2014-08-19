@@ -1,6 +1,11 @@
 modeller
 ========
 
+Module for implementing XOMO and POM3 models.
+
+Structure
+---------
+
 * _model.py Support for models
 * model.py sample runner of models
 * pom3/ contains pom3 model
